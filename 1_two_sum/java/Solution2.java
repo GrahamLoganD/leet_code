@@ -69,6 +69,7 @@ class Solution {
     public int[] twoSum(int[] nums, int target) {
         int length = nums.length;
 
+        // retain original indices?
         quickSort(nums, 0, length - 1);
 
         for (int i : nums) {
