@@ -12,7 +12,10 @@ public class Main {
         System.out.println();
 
         System.out.println("Case 2");
+        int[] nums_2 = { 3, 2, 4 };
+        int target_2 = 6;
         Solution solution_2 = new Solution();
+        int[] output_2 = solution_2.twoSums(nums_2, target_2);
         System.out.println("Output:   " + Arrays.toString(solution_2.twoSum(new int[] { 3, 2, 4 }, 6)));
         System.out.println("Expected: [1, 2]");
         System.out.println();
