@@ -72,10 +72,6 @@ class Solution {
         // retain original indices?
         quickSort(nums, 0, length - 1);
 
-        for (int i : nums) {
-            System.out.printf("%d ", i);
-        }
-
         for (int first_number_index = 0; first_number_index < length - 1; first_number_index++) {
             BinarySearch binary_search = new BinarySearch(nums, first_number_index + 1, length - 1,
                     target - nums[first_number_index]);
